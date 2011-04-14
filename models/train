@@ -1,0 +1,1 @@
+opennlp SentenceDetectorTrainer -encoding UTF-8 -lang lt -data lt-sent.train -model lt-sent.model
