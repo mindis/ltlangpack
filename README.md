@@ -1,6 +1,6 @@
 Lithuanian language processing tools to be used in NLP, search or other applications.
 
-## Sentence Detection
+## Sentence detection
 
 Folder: sentence-detect
 
@@ -17,3 +17,10 @@ Scripts to help with building the model:
 Folder: snowball
 
 Snowball version of Porter stemmer for Lithuanian language
+
+## Language detection
+
+Folder: language-detect
+
+N-grams for Lithuanian language detection. Used in Apache Tika 
+https://issues.apache.org/jira/browse/TIKA-582
