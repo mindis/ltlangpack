@@ -24,3 +24,9 @@ Folder: language-detect
 
 N-grams for Lithuanian language detection. Used in Apache Tika 
 https://issues.apache.org/jira/browse/TIKA-582
+
+## License
+
+Copyright (C) 2011 UAB TokenMill
+
+Distributed under the Eclipse Public License.
