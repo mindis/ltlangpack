@@ -2,7 +2,7 @@
 #Kad pamažinti darbo, naujas tekstas yra segmentuojamas skainiais su esamu modeliu ir rezultatas 
 #pridedamas prie treniruočių failo galo. Prieš leidžiant train komandą, reikia rankiniu būdų pataisyti klaidas!
 
-opennlp SentenceDetector lt-sent.model < in > out
+opennlp SentenceDetector lt-sent.bin < in > out
 cat out >> lt-sent.train
 
 rm -f in out

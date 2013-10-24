@@ -4,6 +4,6 @@
 
 for file in $1/*
 do
-  opennlp SentenceDetector lt-sent.model < $file >> $2/`basename $file`
+  opennlp SentenceDetector lt-sent.bin < $file >> $2/`basename $file`
   sed -i '/^$/d' $2/`basename $file`
 done
