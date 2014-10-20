@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Pridėti patasytų sakinių failų direktoriją. Parametras direktorija
+for file in $1/*
+do
+  cat $file >> lt-sent.train
+done
