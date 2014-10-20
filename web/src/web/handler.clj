@@ -6,6 +6,8 @@
 
 (defroutes app-routes
   (GET "/" [] (resp/redirect "/index.html"))
+  (GET "/input" [] (resp/redirect "/input.html"))
+  (POST "/result" [content])
   (route/resources "/")
   (route/not-found "Not Found"))
 
