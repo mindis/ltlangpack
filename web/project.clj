@@ -3,6 +3,8 @@
   :url "http://example.com/FIXME"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.6.0"]
+                 [enlive "1.1.5"]
+                 [clojure-opennlp "0.3.2"]
                  [compojure "1.1.9"]]
   :plugins [[lein-ring "0.8.12"]]
   :ring {:handler web.handler/app}
