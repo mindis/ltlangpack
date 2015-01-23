@@ -1,0 +1,3 @@
+DIR=`pwd`
+cd $OPENNLP_HOME
+bin/opennlp TokenizerCrossValidator -data $DIR/train.txt -lang lt -misclassified true -abbDict $DIR/abbr-dictionary.xml
