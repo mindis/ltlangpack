@@ -14,9 +14,7 @@ Scripts to help with building the model:
 
 ## Snowball
 
-Folder: snowball
-
-Snowball version of Porter stemmer for Lithuanian language
+Snowball version of Porter stemmer for Lithuanian language was moved to [this page](https://github.com/tokenmill/snowball).
 
 ## Language detection
 
