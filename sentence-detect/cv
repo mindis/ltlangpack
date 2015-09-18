@@ -1,0 +1,1 @@
+opennlp SentenceDetectorCrossValidator -encoding UTF-8 -lang lt -data train.txt -misclassified true

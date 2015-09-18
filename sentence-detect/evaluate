@@ -1,1 +1,1 @@
-opennlp SentenceDetectorEvaluator -encoding UTF-8 -model lt-sent.bin -data lt-sent.evaluate
+opennlp SentenceDetectorEvaluator -encoding UTF-8 -misclassified true -model lt-sent.bin -data evaluate.txt
