@@ -1,1 +1,8 @@
-opennlp SentenceDetectorCrossValidator -encoding UTF-8 -lang lt -data train.txt -misclassified true
+opennlp SentenceDetectorCrossValidator \
+ -cutoff 3 \
+ -eosChars ".!?…“)>]" \
+ -abbDict abbr-dictionary.xml \
+ -encoding UTF-8 \
+ -lang lt \
+ -data train.txt \
+ -misclassified true

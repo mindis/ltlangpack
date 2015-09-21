@@ -1,1 +1,8 @@
-opennlp SentenceDetectorTrainer -encoding UTF-8 -lang lt -data train.txt -model lt-sent.bin
+opennlp SentenceDetectorTrainer \
+ -cutoff 3 \
+ -eosChars ".!?…“)>]" \
+ -abbDict abbr-dictionary.xml \
+ -encoding UTF-8 \
+ -lang lt \
+ -data train.txt \
+ -model lt-sent.bin
