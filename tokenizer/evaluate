@@ -1,0 +1,1 @@
+opennlp TokenizerMEEvaluator -model lt-token.bin -misclassified true -data evaluate.txt

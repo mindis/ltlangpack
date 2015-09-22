@@ -1,3 +1,1 @@
-DIR=`pwd`
-cd $OPENNLP_HOME
-bin/opennlp TokenizerTrainer -model $DIR/lt-token.bin -iterations 150 -alphaNumOpt true -abbDict $DIR/abbr-dictionary.xml -lang lt -data $DIR/train.txt -encoding UTF-8
+opennlp TokenizerTrainer -model lt-token.bin -cutoff 3 -alphaNumOpt true -abbDict abbr-dictionary.xml -lang lt -data train.txt -encoding UTF-8

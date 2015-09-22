@@ -1,3 +1,0 @@
-DIR=`pwd`
-cd $OPENNLP_HOME
-bin/opennlp TokenizerMEEvaluator -model $DIR/lt-token.bin -misclassified true -data $DIR/test.txt

@@ -1,3 +1,1 @@
-DIR=`pwd`
-cd $OPENNLP_HOME
-bin/opennlp TokenizerME $DIR/lt-token.bin 
+opennlp TokenizerME lt-token.bin 
