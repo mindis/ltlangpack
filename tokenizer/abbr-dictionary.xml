@@ -7,6 +7,7 @@
 <entry><token>apskr.</token></entry>
 <entry><token>apsk.</token></entry>
 <entry><token>aps.</token></entry>
+<entry><token>aps./min.</token></entry>
 <entry><token>arch.</token></entry>
 <entry><token>ar.</token></entry>
 <entry><token>atkov.</token></entry>
@@ -19,6 +20,8 @@
 <entry><token>blok.</token></entry>
 <entry><token>b.</token></entry>
 <entry><token>buv.</token></entry>
+<entry><token>cd.</token></entry>
+<entry><token>ch.</token></entry>
 <entry><token>cm.</token></entry>
 <entry><token>corp.</token></entry>
 <entry><token>dab.</token></entry>
@@ -61,6 +64,7 @@
 <entry><token>k.</token></entry>
 <entry><token>kt.</token></entry>
 <entry><token>kub.</token></entry>
+<entry><token>kun.</token></entry>
 <entry><token>kv.</token></entry>
 <entry><token>liet.</token></entry>
 <entry><token>lot.</token></entry>
@@ -68,6 +72,8 @@
 <entry><token>ltn.</token></entry>
 <entry><token>l.</token></entry>
 <entry><token>Lt.</token></entry>
+<entry><token>Lt/kub.</token></entry>
+<entry><token>maks.</token></entry>
 <entry><token>med.</token></entry>
 <entry><token>mėn.</token></entry>
 <entry><token>met.</token></entry>
@@ -77,7 +83,10 @@
 <entry><token>mm.</token></entry>
 <entry><token>mob.</token></entry>
 <entry><token>mong.</token></entry>
+<entry><token>mr.</token></entry>
+<entry><token>mrs.</token></entry>
 <entry><token>m.</token></entry>
+<entry><token>m/sek.</token></entry>
 <entry><token>naud.</token></entry>
 <entry><token>no.</token></entry>
 <entry><token>npr.</token></entry>
@@ -115,6 +124,7 @@
 <entry><token>sav.</token></entry>
 <entry><token>sek.</token></entry>
 <entry><token>sen.</token></entry>
+<entry><token>sh.</token></entry>
 <entry><token>skg.</token></entry>
 <entry><token>spec.</token></entry>
 <entry><token>sportin.</token></entry>
@@ -127,6 +137,7 @@
 <entry><token>tel.</token></entry>
 <entry><token>tikr.</token></entry>
 <entry><token>trit.</token></entry>
+<entry><token>tritaŠk.</token></entry>
 <entry><token>trln.</token></entry>
 <entry><token>tšk.</token></entry>
 <entry><token>t.</token></entry>

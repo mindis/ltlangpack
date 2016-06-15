@@ -1,1 +1,1 @@
-opennlp TokenizerTrainer -model lt-token.bin -cutoff 3 -alphaNumOpt true -abbDict abbr-dictionary.xml -lang lt -data train.txt -encoding UTF-8
+opennlp TokenizerTrainer -model lt-token.bin -cutoff 5 -alphaNumOpt false -abbDict abbr-dictionary.xml -lang lt -data train.txt -encoding UTF-8
